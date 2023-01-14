@@ -98,16 +98,12 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
-
-/* .quicklist-image img {
-  height: 100%;
-  width: 100%;
-} */
 .quicklist-info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
-  width: 500px;
+  padding: 50px auto;
 }
 .quicklist-title {
   font-weight: 500;
@@ -119,12 +115,15 @@ nav {
   font-size: 45px;
   color: #131313;
 }
+
 /* -----------------------------
     Media Query
 --------------------------------*/
 /* Mobile Devices */
 @media only screen and (max-width: 576px) {
-  header,
+  header {
+    padding: 0 20px 20px 20px;
+  }
   main,
   footer {
     padding: 0 20px 10px 20px;
@@ -145,6 +144,23 @@ nav {
   .banner-image img {
     width: 100%;
   }
+  .quicklist {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 20px 20px 20px 20px;
+  }
+  .quicklist-image {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .quicklist-image img {
+    height: 100%;
+    width: 100%;
+  }
+  .quicklist-info {
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
 }
 
 /* Tablet Devices */
@@ -152,7 +168,7 @@ nav {
   header,
   main,
   footer {
-    padding: 0 30px 20px 30px;
+    padding: 0 30px 30px 30px;
   }
   nav {
     flex-direction: column;
@@ -166,5 +182,19 @@ nav {
   }
   .banner-image img {
     width: 100%;
+  }
+  .quicklist {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 30px 20px 20px 30px;
+  }
+  .quicklist-image img {
+    height: 100%;
+    width: 100%;
+  }
+  .quicklist-info {
+    align-items: center;
+    text-align: center;
+    padding: 0;
   }
 }
