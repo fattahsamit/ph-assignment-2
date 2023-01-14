@@ -83,6 +83,43 @@ nav {
 }
 
 /* -----------------------------
+    Quick list Section
+--------------------------------*/
+.quicklist {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  padding: 85px 30px 130px 30px;
+}
+.quicklist-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+/* .quicklist-image img {
+  height: 100%;
+  width: 100%;
+} */
+.quicklist-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 500px;
+}
+.quicklist-title {
+  font-weight: 500;
+  font-size: 45px;
+  color: #727272;
+}
+.quicklist-title2 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+/* -----------------------------
     Media Query
 --------------------------------*/
 /* Mobile Devices */
@@ -115,7 +152,7 @@ nav {
   header,
   main,
   footer {
-    padding: 0 30px 15px 30px;
+    padding: 0 30px 20px 30px;
   }
   nav {
     flex-direction: column;
