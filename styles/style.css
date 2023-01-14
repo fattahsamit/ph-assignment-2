@@ -6,8 +6,46 @@
 /* -----------------------------
     Common Styles or Utilities
 --------------------------------*/
-* {
+body {
   margin: 0;
-  padding: 0;
+  padding: 0 240px;
   font-family: "Work Sans", sans-serif;
+  color: #131313;
+  background-color: rgb(255 244 231);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+/* -----------------------------
+    Navigation Bar
+--------------------------------*/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-others-container {
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+}
+.nav-others-container ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+/* -----------------------------
+    Media Query
+--------------------------------*/
+/* Mobile Devices */
+@media only screen and (max-width: 576px) {
+}
+
+/* Tablet Devices */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
 }
