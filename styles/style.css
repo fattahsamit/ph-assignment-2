@@ -1,11 +1,11 @@
-/* -----------------------------
-    Fonts
---------------------------------*/
+/* ------------------------------------
+    Fonts (Work Sans - Regular 400)
+---------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 
-/* -----------------------------
+/* ------------------------------------
     Common Styles or Utilities
---------------------------------*/
+---------------------------------------*/
 body {
   margin: 0;
   padding: 0;
@@ -25,14 +25,15 @@ footer {
   font-size: 45px;
 }
 .section-description {
+  padding: 20px 0;
   font-size: 16px;
   line-height: 26px;
   color: #727272;
 }
 
-/* -----------------------------
+/* ------------------------------------
     Navigation Bar
---------------------------------*/
+---------------------------------------*/
 nav {
   display: flex;
   align-items: center;
@@ -51,9 +52,9 @@ nav {
   justify-content: space-between;
 }
 
-/* -----------------------------
+/* ------------------------------------
     Banner Section
---------------------------------*/
+---------------------------------------*/
 .banner {
   display: flex;
   flex-direction: column;
@@ -84,9 +85,9 @@ nav {
   width: 100%;
 }
 
-/* -----------------------------
+/* ------------------------------------
     Quick list Section
---------------------------------*/
+---------------------------------------*/
 .quicklist {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -118,9 +119,9 @@ nav {
   color: #131313;
 }
 
-/* -----------------------------
+/* ------------------------------------
     Features Section
---------------------------------*/
+---------------------------------------*/
 .features {
   display: flex;
   align-items: flex-start;
@@ -167,9 +168,9 @@ nav {
   background: #ff8800;
 }
 
-/* -----------------------------
+/* ------------------------------------
     Some Facts
---------------------------------*/
+---------------------------------------*/
 .facts {
   display: flex;
   flex-direction: column;
@@ -210,9 +211,9 @@ nav {
   color: #727272;
 }
 
-/* -----------------------------
+/* ------------------------------------
     Sponsors Section
---------------------------------*/
+---------------------------------------*/
 .sponsors {
   display: flex;
   flex-direction: column;
@@ -242,9 +243,9 @@ nav {
   width: 100%;
 }
 
-/* -----------------------------
-    Client Work Section
---------------------------------*/
+/* ------------------------------------
+    Client Work Section (Bonus)
+---------------------------------------*/
 .work {
   padding-top: 120px;
 }
@@ -292,9 +293,9 @@ nav {
   border-radius: 10px;
 }
 
-/* -----------------------------
+/* ------------------------------------
     Footer Section
---------------------------------*/
+---------------------------------------*/
 .footer-container {
   text-align: center;
   background: #fff4e7;
@@ -309,9 +310,9 @@ nav {
   color: #424242;
 }
 
-/* -----------------------------
+/* ------------------------------------
     Media Query
---------------------------------*/
+---------------------------------------*/
 /* Mobile Devices */
 @media only screen and (max-width: 576px) {
   header {
@@ -431,7 +432,7 @@ nav {
     flex-direction: column;
   }
   .nav-others-container ul {
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: center;
   }
   .banner-info-container {
