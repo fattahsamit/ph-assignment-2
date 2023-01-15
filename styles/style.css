@@ -46,7 +46,6 @@ nav {
 .nav-others-container ul {
   padding: 0;
   display: flex;
-  flex-direction: row;
   list-style: none;
   gap: 30px;
   justify-content: space-between;
@@ -144,7 +143,6 @@ nav {
   border-radius: 8px;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
 }
-
 .features-image {
   width: calc(100% / 2);
 }
@@ -180,7 +178,7 @@ nav {
   text-align: center;
   padding: 0 50px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   gap: 50px;
 }
@@ -190,6 +188,11 @@ nav {
   width: 100%;
   padding: 30px 0;
   border: 1px solid #ff900e;
+}
+/* Animation */
+.fact:hover {
+  width: 150%;
+  background-color: #fec27d;
 }
 .fact-title {
   font-weight: 600;
@@ -274,9 +277,6 @@ nav {
   .banner-info-container {
     padding: 0;
   }
-  .banner-image img {
-    width: 100%;
-  }
   .quicklist {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
@@ -330,16 +330,12 @@ nav {
   }
   .fact-container {
     padding: 0 80px;
-    display: flex;
     flex-direction: column;
-    gap: 50px;
   }
   .sponsors {
     gap: 0;
-    margin-bottom: 60px;
   }
   .sponsors-info {
-    margin-bottom: 50px;
     padding: 0;
   }
   .sponsor-container {
@@ -370,9 +366,6 @@ nav {
   }
   .banner-info-container {
     padding: 0;
-  }
-  .banner-image img {
-    width: 100%;
   }
   .quicklist {
     grid-template-columns: repeat(1, 1fr);
@@ -430,21 +423,17 @@ nav {
     gap: 110px;
   }
   .fact {
-    align-content: center;
     padding: 15px 0;
   }
   .sponsors {
     gap: 0;
-    margin-bottom: 60px;
   }
   .sponsors-info {
-    margin-bottom: 50px;
     padding: 0;
   }
   .sponsor-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
   }
   .footer-container {
     margin-top: 60px;
