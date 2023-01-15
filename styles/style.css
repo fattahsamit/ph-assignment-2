@@ -77,6 +77,9 @@ nav {
   border: 0;
   border-radius: 8px;
 }
+.btn-primary:hover {
+  background: #ff8800;
+}
 .banner-image img {
   width: 100%;
 }
@@ -159,6 +162,9 @@ nav {
   background: #ff900e;
   border-radius: 8px;
   margin: -80px -40px;
+}
+.btn-secondary:hover {
+  background: #ff8800;
 }
 
 /* -----------------------------
