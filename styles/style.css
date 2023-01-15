@@ -233,6 +233,23 @@ nav {
 }
 
 /* -----------------------------
+    Footer Section
+--------------------------------*/
+.footer-container {
+  text-align: center;
+  background: #fff4e7;
+  border-radius: 8px;
+  padding: 20px 20px;
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+.footer-info {
+  font-weight: 400;
+  font-size: 20px;
+  color: #424242;
+}
+
+/* -----------------------------
     Media Query
 --------------------------------*/
 /* Mobile Devices */
@@ -291,11 +308,7 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
-  }
-  .btn-secondary {
-    width: 200px;
-    height: 100px;
+    gap: 20px;
   }
   .features-image img {
     /* margin-bottom: -60px; */
@@ -305,6 +318,8 @@ nav {
     /* padding: 10px 35px; */
     padding: 0;
     margin: 0;
+    width: 200px;
+    height: 100px;
   }
   .facts {
     align-content: center;
@@ -329,6 +344,10 @@ nav {
   }
   .sponsor-container {
     flex-direction: column;
+  }
+  .footer-container {
+    margin-top: 40px;
+    margin-bottom: 80px;
   }
 }
 
@@ -380,11 +399,7 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
-  }
-  .btn-secondary {
-    width: 200px;
-    height: 100px;
+    gap: 20px;
   }
   .features-image img {
     /* margin-bottom: -60px; */
@@ -394,6 +409,8 @@ nav {
     /* padding: 10px 35px; */
     padding: 0;
     margin: 0;
+    width: 200px;
+    height: 100px;
   }
   .facts {
     align-content: center;
@@ -425,5 +442,9 @@ nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
+  }
+  .footer-container {
+    margin-top: 60px;
+    margin-bottom: 120px;
   }
 }
