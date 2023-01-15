@@ -245,6 +245,59 @@ nav {
 }
 
 /* -----------------------------
+    Client Work Section
+--------------------------------*/
+.work {
+  padding-top: 120px;
+}
+.work-info {
+  margin-bottom: 70px;
+}
+.work-info > .section-description {
+  padding-right: 50%;
+}
+.work-showcase {
+  display: grid;
+  grid-template-areas:
+    "a a a b b b"
+    "c c d d e e"
+    "f f g g h h";
+  gap: 5px;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+}
+#a {
+  grid-area: a;
+}
+#b {
+  grid-area: b;
+}
+#c {
+  grid-area: c;
+}
+#d {
+  grid-area: d;
+}
+#e {
+  grid-area: e;
+}
+#f {
+  grid-area: f;
+}
+#g {
+  grid-area: g;
+}
+#h {
+  grid-area: h;
+}
+.work-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* -----------------------------
     Footer Section
 --------------------------------*/
 .footer-container {
