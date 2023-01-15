@@ -177,7 +177,6 @@ nav {
   margin-bottom: 60px;
 }
 .facts-info {
-  padding-right: 50%;
   margin-bottom: 50px;
 }
 .fact-container {
@@ -224,7 +223,6 @@ nav {
 .sponsors-info {
   text-align: center;
   margin-bottom: 50px;
-  padding: 0 250px;
 }
 .sponsor-container {
   display: flex;
@@ -252,9 +250,6 @@ nav {
 }
 .work-info {
   margin-bottom: 70px;
-}
-.work-info > .section-description {
-  padding-right: 50%;
 }
 .work-showcase {
   display: grid;
@@ -356,6 +351,9 @@ nav {
     text-align: center;
     padding: 0;
   }
+  .quicklist-info ul {
+    text-align: left;
+  }
   .features {
     flex-direction: column;
     align-items: center;
@@ -397,9 +395,6 @@ nav {
   .sponsors {
     gap: 0;
   }
-  .sponsors-info {
-    padding: 0;
-  }
   .sponsor-container {
     flex-direction: column;
   }
@@ -409,9 +404,6 @@ nav {
   .work-info {
     text-align: center;
     margin-bottom: 40px;
-  }
-  .work-info > .section-description {
-    padding: 0;
   }
   .work-showcase {
     display: flex;
@@ -458,6 +450,9 @@ nav {
     align-items: center;
     text-align: center;
     padding: 0;
+  }
+  .quicklist-info ul {
+    text-align: left;
   }
   .features {
     flex-direction: column;
@@ -506,9 +501,6 @@ nav {
   .sponsors {
     gap: 0;
   }
-  .sponsors-info {
-    padding: 0;
-  }
   .sponsor-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -519,9 +511,6 @@ nav {
   .work-info {
     text-align: center;
     margin-bottom: 50px;
-  }
-  .work-info > .section-description {
-    padding: 0;
   }
   .work-showcase {
     grid-template-areas:
